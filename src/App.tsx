@@ -198,7 +198,7 @@ function App() {
 							<span>$</span> {item.preco}
 						</div>
 						
-						<button onClick={() => {  } } className="add"><MdAddShoppingCart/></button>
+						<button onClick={() => { addCarrinho(item) } } className="add"><MdAddShoppingCart/></button>
 						
 					</div>
 					
